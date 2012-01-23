@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+// Class: ${1:ClassName}
+${1:ClassName} = function () {
+	if (!(this instanceof ${1:ClassName})) {
+		return new ${1:ClassName}();
+	}
+	this.init();
+};
+
+${1:ClassName}.prototype.init = function () {
+	$2
+};
+
+]]></content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.js</scope>
+	<description>New class (prototypical)</description>
+</snippet>

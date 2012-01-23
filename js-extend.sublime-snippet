@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+// Class: ${1:ClassName} (extends ${2:ExtendedClass})
+${1:ClassName} = function () { };
+${1:ClassName}.prototype = new ${2:ExtendedClass}();
+
+${1:ClassName}.prototype.constructor = function () {
+	if (!(this instanceof ${1:ClassName})) {
+		return new ${1:ClassName}();
+	}
+	${2:ExtendedClass}.prototype.constructor.apply(this, arguments);
+	this.init();
+};
+
+${1:ClassName}.prototype.init = function () {
+	$3
+};
+
+]]></content>
+	<tabTrigger>extend</tabTrigger>
+	<scope>source.js</scope>
+	<description>Extended Class</description>
+</snippet>
