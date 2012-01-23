@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-// Class: ${1:ClassName} (extends ${2:ExtendedClass})
+// Class: ${1:ClassName}
+// Extends: ${2:ExtendedClass}
 ${1:ClassName} = function () { };
 ${1:ClassName}.prototype = new ${2:ExtendedClass}();
 
