@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-// Class: ${1:ClassName}
+// ## Class: ${1:ClassName}
 ${1:ClassName} = function () {
 	if (!(this instanceof ${1:ClassName})) {
 		return new ${1:ClassName}();
