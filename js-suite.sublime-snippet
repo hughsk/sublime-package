@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+suite('${1:Suite Title}', function(${2:done}) {
+	
+});
+]]></content>
+	<tabTrigger>suite</tabTrigger>
+	<scope>source.js</scope>
+	<description>Mocha Test Suite</description>
+</snippet>
