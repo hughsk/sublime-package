@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+// ${1:Describe the helper}
+//
+// @${2:parameter} - ${3:Describe the parameter}
+//
+// ${4:Compatibility untested}
+]]></content>
+	<tabTrigger>helper</tabTrigger>
+	<scope>source.css</scope>
+</snippet>
