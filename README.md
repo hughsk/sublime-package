@@ -10,6 +10,16 @@ Used for storing my setup (key bindings, snippets, etc.) with SublimeText. Only 
     
 Not always clean however...
 
+## Included Packages
+
+* Soda Theme (Dark and Light)
+
+* Tomorrow Night Color Scheme (Modified for better markdown writing)
+
+* Personal snippets + settings
+
+* `sublime-jslint` for automatic javascript linting
+
 ## Javascript Snippets
 * `for`: Quick for loops.
 
