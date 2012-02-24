@@ -1,0 +1,18 @@
+{
+	"auto_upgrade_last_run": 1329974518,
+	"installed_packages":
+	[
+		"Can I Use",
+		"CoffeeScript",
+		"DocBlockr",
+		"Gist",
+		"Git",
+		"GitHubinator",
+		"JS Minifier",
+		"JSHint",
+		"LESS",
+		"Package Control",
+		"sublime-jslint",
+		"Theme - Soda"
+	]
+}
