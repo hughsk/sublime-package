@@ -1,0 +1,7 @@
+[
+	{
+		"keys": ["ctrl+shift+h", "ctrl+shift+m"],
+		"command": "insert_snippet",
+		"args": { "contents": "// ### `${2:$SELECTION}.${1:methodName}($3)`\r\n${2:${SELECTION:ClassName}}.prototype.${1:methodName} = function($3) {\r\n$4\r\n};" }
+	}
+]
