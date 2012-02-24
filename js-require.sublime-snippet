@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[${1:fs} = require('${2:$1}')]]></content>
+	<tabTrigger>re</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
